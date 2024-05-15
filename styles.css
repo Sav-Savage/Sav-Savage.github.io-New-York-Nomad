@@ -1,39 +1,47 @@
-/* Style the navbar */
+/* Global styles */
+body {
+    background-color: #f0f7ee; /* Light green background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    text-align: center; /* Center align the header content */
+    padding: 20px 0; /* Add some padding to the header */
+    background-color: #1a1a1a; /* Dark gray background */
+}
+
+.title {
+    color: #ffcc00; /* Old money gold color */
+    margin: 0; /* Remove default margins */
+    padding-bottom: 10px; /* Add some space below the title */
+}
+
+/* Navbar styles */
 .navbar {
+    background-color: #333; /* Dark gray navbar background */
+}
+
+.nav-list {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #1a1a1a; /* Dark gray for sophistication */
 }
 
-.navbar li {
-    float: left;
+.nav-item {
+    display: inline-block; /* Display nav items horizontally */
+    margin-right: 20px; /* Add some space between nav items */
 }
 
-.navbar li a {
-    display: block;
-    color: #ffcc00; /* Old money gold color */
-    text-align: center;
-    padding: 14px 16px;
+.nav-link {
+    color: #fff; /* White text color for nav links */
     text-decoration: none;
-    border-bottom: 2px solid transparent; /* Add transparent underline */
+    padding: 10px; /* Add padding to nav links */
+    transition: border-bottom 0.3s; /* Add smooth transition for underline */
 }
 
-/* Change the link color to white on hover and add underline */
-.navbar li a:hover {
-    background-color: #555; /* Darker blue-gray on hover */
+.nav-link:hover {
     border-bottom: 2px solid #ffcc00; /* Add gold underline on hover */
 }
 
-/* Style the website title */
-h1 {
-    color: #333; /* Dark gray for title */
-}
-
-/* Custom color scheme */
-body {
-    background-color: #f0f7ee; /* Light green for background */
-}
-
-/* Additional styling for other elements as needed */
