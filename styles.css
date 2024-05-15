@@ -18,6 +18,10 @@ header {
     padding-bottom: 10px; /* Add some space below the title */
 }
 
+.quote {
+    color: #fff; /* White color for the quote */
+}
+
 /* Navbar styles */
 .navbar {
     background-color: #333; /* Dark gray navbar background */
@@ -44,4 +48,14 @@ header {
 .nav-link:hover {
     border-bottom: 2px solid #ffcc00; /* Add gold underline on hover */
 }
+
+/* Section styles */
+section {
+    padding: 50px 0; /* Add padding to sections */
+}
+
+section h2 {
+    text-align: center; /* Center align section headings */
+}
+
 
