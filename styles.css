@@ -19,7 +19,8 @@ header {
 }
 
 .quote {
-    color: #fff; /* White color for the quote */
+    color: #fff; /* White text color */
+    font-style: italic; /* Italicize the quote */
 }
 
 /* Navbar styles */
@@ -49,13 +50,27 @@ header {
     border-bottom: 2px solid #ffcc00; /* Add gold underline on hover */
 }
 
-/* Section styles */
-section {
-    padding: 50px 0; /* Add padding to sections */
+/* Container styles */
+.container {
+    padding: 20px; /* Add padding to containers */
+    background-color: #fff; /* White background */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+    margin-bottom: 20px; /* Add some space between containers */
 }
 
-section h2 {
-    text-align: center; /* Center align section headings */
+/* Button styles */
+.btn-outline {
+    border: 2px solid #ffcc00; /* Gold border */
+    color: #ffcc00; /* Gold text color */
+    background-color: transparent; /* Transparent background */
+    padding: 10px 20px; /* Add padding to buttons */
+    border-radius: 5px; /* Add rounded corners */
+    text-decoration: none; /* Remove default underline */
+    transition: background-color 0.3s, color 0.3s; /* Add smooth transition */
 }
 
-
+.btn-outline:hover {
+    background-color: #ffcc00; /* Gold background on hover */
+    color: #333; /* Dark text color on hover */
+}
