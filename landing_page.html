@@ -83,43 +83,21 @@
       color: #333; /* Dark text color on hover */
     }
 
-    /* Form styles */
-    form {
-      margin-top: 20px;
-    }
-
-    .form-group {
-      margin-bottom: 20px;
-    }
-
-    .form-group label {
-      display: block;
-      margin-bottom: 5px;
-    }
-
-    .form-group input[type="email"],
-    .form-group textarea {
-      width: 100%;
-      padding: 10px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-    }
-
-    .form-group textarea {
-      height: 100px;
-    }
-
-    .form-group button {
-      padding: 10px 20px;
-      background-color: #ffcc00; /* Gold background */
-      color: #333; /* Dark text color */
-      border: none;
-      border-radius: 5px;
+    .btn {
+      border: 2px solid #ffcc00; /* Gold border */
+      color: #ffcc00; /* Gold text color */
+      background-color: transparent; /* Transparent background */
+      padding: 10px 20px; /* Add padding to buttons */
+      border-radius: 5px; /* Add rounded corners */
+      text-decoration: none; /* Remove default underline */
+      transition: background-color 0.3s, color 0.3s; /* Add smooth transition */
       cursor: pointer;
+      display: inline-block;
     }
 
-    .form-group button:hover {
-      background-color: #e0b800; /* Darker gold background on hover */
+    .btn:hover {
+      background-color: #ffcc00; /* Gold background on hover */
+      color: #333; /* Dark text color on hover */
     }
   </style>
 </head>
@@ -143,7 +121,7 @@
   <form action="#" method="post">
     <div class="form-group">
       <label for="name">Name:</label>
-      <input type="name" id="name" name="firstname" required>
+      <input type="text" id="name" name="firstname" required>
       <label for="email">Email:</label>
       <input type="email" id="email" name="email" required>
     </div>
@@ -152,7 +130,7 @@
       <textarea id="message" name="message" required></textarea>
     </div>
     <div class="form-group">
-      <button type="submit" class="btn-outline">Send</button>
+      <button type="submit" class="btn">Send</button>
     </div>
   </form>
 </div>
