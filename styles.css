@@ -285,3 +285,38 @@ header {
     background-color: #ffcc00; /* Gold background on hover */
     color: #333; /* Dark text color on hover */
 }
+.photography-videography {
+    padding: 20px; /* Add padding to the Photography & Videography section */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+    margin-bottom: 20px; /* Add some space between sections */
+    background-image: url('/Users/water/github_projects/New York Nomad/photography.png'); /* Set the local image as background */
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the image */
+    color: white; /* Set text color to white for better readability */
+}
+
+.photography-videography-content {
+    padding: 20px; /* Add padding to the content */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    border-radius: 10px; /* Add rounded corners */
+}
+
+.photography-videography-content p {
+    margin-bottom: 10px; /* Add some space below the paragraph */
+}
+
+.btn-outline {
+    border: 2px solid #ffcc00; /* Gold border */
+    color: #ffcc00; /* Gold text color */
+    background-color: transparent; /* Transparent background */
+    padding: 10px 20px; /* Add padding to buttons */
+    border-radius: 5px; /* Add rounded corners */
+    text-decoration: none; /* Remove default underline */
+    transition: background-color 0.3s, color 0.3s; /* Add smooth transition */
+}
+
+.btn-outline:hover {
+    background-color: #ffcc00; /* Gold background on hover */
+    color: #333; /* Dark text color on hover */
+}
