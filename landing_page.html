@@ -30,9 +30,10 @@
       font-style: italic; /* Italicize the quote */
     }
 
-    /* Navbar styles */
+    /* Navigation bar styles */
     .navbar {
       background-color: #333; /* Dark gray navbar background */
+      text-align: center;
     }
 
     .nav-list {
@@ -42,13 +43,120 @@
     }
 
     .nav-item {
-      display: inline-block; /* Display nav items horizontally */
-      margin-right: 20px; /* Add some space between nav items */
+      display: inline-block;
+      margin-right: 20px;
     }
 
     .nav-link {
-      color: #fff; /* White text color for nav links */
+      color: #fff;
       text-decoration: none;
-      padding: 10px; /* Add padding to nav links */
-      transition: border-bottom 0.3s; /* Add smooth transition for underline */
+      padding: 10px;
+      transition: border-bottom 0.3s;
     }
+
+    .nav-link:hover {
+      border-bottom: 2px solid #ffcc00;
+    }
+
+    /* Container styles */
+    .container {
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin: 50px auto;
+      max-width: 600px;
+    }
+
+    /* Button styles */
+    .btn-outline {
+      border: 2px solid #ffcc00;
+      color: #ffcc00;
+      background-color: transparent;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .btn-outline:hover {
+      background-color: #ffcc00;
+      color: #333;
+    }
+
+    /* Form styles */
+    form {
+      margin-top: 20px;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .form-group input[type="text"],
+    .form-group input[type="email"],
+    .form-group textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .form-group textarea {
+      height: 100px;
+    }
+
+    .form-group button {
+      padding: 10px 20px;
+      background-color: #ffcc00;
+      color: #333;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .form-group button:hover {
+      background-color: #e0b800;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1 class="title">Connect Now</h1>
+  <p class="quote">Feel free to drop us a message!</p>
+</header>
+
+<nav class="navbar">
+  <ul class="nav-list">
+    <li class="nav-item"><a href="index.html" class="nav-link">Return to Home</a></li>
+  </ul>
+</nav>
+
+<div class="container">
+  <form action="#" method="post">
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+    </div>
+    <div class="form-group">
+      <button type="submit" class="btn-outline">Send</button>
+    </div>
+  </form>
+</div>
+
+</body>
+</html>
