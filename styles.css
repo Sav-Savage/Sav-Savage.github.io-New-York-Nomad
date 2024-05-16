@@ -116,7 +116,7 @@ header {
     border-radius: 10px; /* Add rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
     margin-bottom: 20px; /* Add some space between sections */
-    background-image: url('/Users/water/github_projects/New York Nomad/teach 1.png'); /* Set the local image as background */
+    background-image: url('teach 1.png'); /* Set the local image as background */
     background-size: cover; /* Cover the entire section */
     background-position: center; /* Center the image */
     color: white; /* Set text color to white for better readability */
