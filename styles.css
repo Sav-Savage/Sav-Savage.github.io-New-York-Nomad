@@ -13,37 +13,15 @@ header {
 }
 
 .title {
+    color: #ffcc00; /* Old money gold color */
     margin: 0; /* Remove default margins */
     padding-bottom: 10px; /* Add some space below the title */
 }
 
-.navbar {
-    background-color: #333; /* Dark gray navbar background */
-    padding: 10px 0; /* Add padding to the navbar */
+.quote {
+    color: #fff; /* White text color */
+    font-style: italic; /* Italicize the quote */
 }
-
-.nav-list {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.nav-item {
-    display: inline-block; /* Display nav items horizontally */
-    margin-right: 20px; /* Add some space between nav items */
-}
-
-.nav-link {
-    color: #fff; /* White text color for nav links */
-    text-decoration: none;
-    padding: 10px; /* Add padding to nav links */
-    transition: border-bottom 0.3s; /* Add smooth transition for underline */
-}
-
-.nav-link:hover {
-    border-bottom: 2px solid #ffcc00; /* Add gold underline on hover */
-}
-
 
 /* Navbar styles */
 .navbar {
