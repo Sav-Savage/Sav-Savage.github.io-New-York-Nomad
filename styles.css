@@ -151,7 +151,7 @@ header {
     border-radius: 10px; /* Add rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
     margin-bottom: 20px; /* Add some space between sections */
-    background-image: url('/Users/water/github_projects/New York Nomad/travel 1.png'); /* Set the local image as background */
+    background-image: url('travel 1.png'); /* Set the local image as background */
     background-size: cover; /* Cover the entire section */
     background-position: center; /* Center the image */
     color: white; /* Set text color to white for better readability */
@@ -186,7 +186,7 @@ header {
     border-radius: 10px; /* Add rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
     margin-bottom: 20px; /* Add some space between sections */
-    background-image: url('/Users/water/github_projects/New York Nomad/health.png'); /* Set the local image as background */
+    background-image: url('health.png'); /* Set the local image as background */
     background-size: cover; /* Cover the entire section */
     background-position: center; /* Center the image */
     color: white; /* Set text color to white for better readability */
@@ -221,7 +221,7 @@ header {
     border-radius: 10px; /* Add rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
     margin-bottom: 20px; /* Add some space between sections */
-    background-image: url('/Users/water/github_projects/New York Nomad/uxdesign.png'); /* Set the local image as background */
+    background-image: url('uxdesign.png'); /* Set the local image as background */
     background-size: cover; /* Cover the entire section */
     background-position: center; /* Center the image */
     color: white; /* Set text color to white for better readability */
@@ -257,7 +257,7 @@ header {
     border-radius: 10px; /* Add rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
     margin-bottom: 20px; /* Add some space between sections */
-    background-image: url('/Users/water/github_projects/New York Nomad/tech.jpeg'); /* Set the local image as background */
+    background-image: url('tech.jpeg'); /* Set the local image as background */
     background-size: cover; /* Cover the entire section */
     background-position: center; /* Center the image */
     color: white; /* Set text color to white for better readability */
@@ -292,7 +292,7 @@ header {
     border-radius: 10px; /* Add rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
     margin-bottom: 20px; /* Add some space between sections */
-    background-image: url('/Users/water/github_projects/New York Nomad/photography.png'); /* Set the local image as background */
+    background-image: url('photography.png'); /* Set the local image as background */
     background-size: cover; /* Cover the entire section */
     background-position: center; /* Center the image */
     color: white; /* Set text color to white for better readability */
@@ -327,7 +327,7 @@ header {
     border-radius: 10px; /* Add rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
     margin-bottom: 20px; /* Add some space between sections */
-    background-image: url('/Users/water/github_projects/New York Nomad/lifework.png'); /* Set the local image as background */
+    background-image: url('lifework.png'); /* Set the local image as background */
     background-size: cover; /* Cover the entire section */
     background-position: center; /* Center the image */
     color: white; /* Set text color to white for better readability */
