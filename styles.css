@@ -74,32 +74,24 @@ header {
     background-color: #ffcc00; /* Gold background on hover */
     color: #333; /* Dark text color on hover */
 }
-.container {
-    padding: 20px;
-}
-
 .consulting {
     padding: 20px; /* Add padding to the consulting section */
     border-radius: 10px; /* Add rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
     margin-bottom: 20px; /* Add some space between sections */
-}
-
-.consulting-background {
-    background-image: url('consult.jpg'); /* Set the image as background */
+    background-image: url('https://github.com/Sav-Savage/New-York-Nomad/blob/39c4f0c9f74a1f5688b7196eb02ee77b39780c38/consult.avif'); /* Set the local image as background */
     background-size: cover; /* Cover the entire section */
     background-position: center; /* Center the image */
-    border-radius: 10px; /* Add rounded corners */
-    overflow: hidden; /* Hide overflowing content */
+    color: white; /* Set text color to white for better readability */
 }
 
 .consulting-content {
     padding: 20px; /* Add padding to the content */
-    background-color: rgba(255, 255, 255, 0.8); /* White background with transparency */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    border-radius: 10px; /* Add rounded corners */
 }
 
 .consulting-content p {
-    color: #333; /* Dark text color */
     margin-bottom: 10px; /* Add some space below the paragraph */
 }
 
@@ -118,4 +110,3 @@ header {
     color: #333; /* Dark text color on hover */
 }
 
-}
