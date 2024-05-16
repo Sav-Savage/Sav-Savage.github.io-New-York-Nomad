@@ -74,8 +74,9 @@ header {
     background-color: #ffcc00; /* Gold background on hover */
     color: #333; /* Dark text color on hover */
 }
+
 .consulting {
-    padding: 20px; /* Add padding to the consulting section */
+    padding: 20px; /* Add padding to the Consulting section */
     border-radius: 10px; /* Add rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
     margin-bottom: 20px; /* Add some space between sections */
@@ -250,6 +251,7 @@ header {
     background-color: #ffcc00; /* Gold background on hover */
     color: #333; /* Dark text color on hover */
 }
+
 .full-stack-development {
     padding: 20px; /* Add padding to the Full Stack Development section */
     border-radius: 10px; /* Add rounded corners */
