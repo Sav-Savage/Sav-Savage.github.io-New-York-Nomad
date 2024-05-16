@@ -5,26 +5,85 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact Us</title>
   <style>
+    /* Global styles */
     body {
-      font-family: Arial, sans-serif;
+      background-color: #f0f7ee; /* Light green background */
       margin: 0;
       padding: 0;
-      background-color: #f2f2f2;
     }
 
+    /* Header styles */
+    header {
+      text-align: center; /* Center align the header content */
+      padding: 20px 0; /* Add some padding to the header */
+      background-color: #1a1a1a; /* Dark gray background */
+    }
+
+    .title {
+      color: #ffcc00; /* Old money gold color */
+      margin: 0; /* Remove default margins */
+      padding-bottom: 10px; /* Add some space below the title */
+    }
+
+    .quote {
+      color: #fff; /* White text color */
+      font-style: italic; /* Italicize the quote */
+    }
+
+    /* Navbar styles */
+    .navbar {
+      background-color: #333; /* Dark gray navbar background */
+    }
+
+    .nav-list {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav-item {
+      display: inline-block; /* Display nav items horizontally */
+      margin-right: 20px; /* Add some space between nav items */
+    }
+
+    .nav-link {
+      color: #fff; /* White text color for nav links */
+      text-decoration: none;
+      padding: 10px; /* Add padding to nav links */
+      transition: border-bottom 0.3s; /* Add smooth transition for underline */
+    }
+
+    .nav-link:hover {
+      border-bottom: 2px solid #ffcc00; /* Add gold underline on hover */
+    }
+
+    /* Container styles */
     .container {
-      max-width: 600px;
-      margin: 50px auto;
-      padding: 20px;
-      background-color: #fff;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 20px; /* Add padding to containers */
+      background-color: #fff; /* White background */
+      border-radius: 10px; /* Add rounded corners */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+      margin: 50px auto; /* Center container */
+      max-width: 600px; /* Limit container width */
     }
 
-    h2 {
-      text-align: center;
+    /* Button styles */
+    .btn-outline {
+      border: 2px solid #ffcc00; /* Gold border */
+      color: #ffcc00; /* Gold text color */
+      background-color: transparent; /* Transparent background */
+      padding: 10px 20px; /* Add padding to buttons */
+      border-radius: 5px; /* Add rounded corners */
+      text-decoration: none; /* Remove default underline */
+      transition: background-color 0.3s, color 0.3s; /* Add smooth transition */
     }
 
+    .btn-outline:hover {
+      background-color: #ffcc00; /* Gold background on hover */
+      color: #333; /* Dark text color on hover */
+    }
+
+    /* Form styles */
     form {
       margin-top: 20px;
     }
@@ -38,7 +97,7 @@
       margin-bottom: 5px;
     }
 
-    .form-group input[type="text"],
+    .form-group input[type="email"],
     .form-group textarea {
       width: 100%;
       padding: 10px;
@@ -52,36 +111,49 @@
 
     .form-group button {
       padding: 10px 20px;
-      background-color: #007bff;
-      color: #fff;
+      background-color: #ffcc00; /* Gold background */
+      color: #333; /* Dark text color */
       border: none;
       border-radius: 5px;
       cursor: pointer;
     }
 
     .form-group button:hover {
-      background-color: #0056b3;
+      background-color: #e0b800; /* Darker gold background on hover */
     }
   </style>
 </head>
 <body>
 
-  <div class="container">
-    <h2>Reach Us</h2>
-    <form action="#" method="post">
-      <div class="form-group">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-      </div>
-      <div class="form-group">
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" required></textarea>
-      </div>
-      <div class="form-group">
-        <button type="submit">Send</button>
-      </div>
-    </form>
-  </div>
+<header>
+  <h1 class="title">Contact Us</h1>
+  <p class="quote">Feel free to drop us a message!</p>
+</header>
+
+<nav class="navbar">
+  <ul class="nav-list">
+    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+    <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+    <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+  </ul>
+</nav>
+
+<div class="container">
+  <form action="#" method="post">
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+    </div>
+    <div class="form-group">
+      <button type="submit" class="btn-outline">Send</button>
+    </div>
+  </form>
+</div>
 
 </body>
 </html>
